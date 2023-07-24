@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    width: 1200px;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.rasm {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.btn {
+    color: white;
+    width: 160px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: #09A66D;
+}
